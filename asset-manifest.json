@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/novo-portfolio/static/css/main.358b5fc2.css",
+    "main.js": "/novo-portfolio/static/js/main.bd7ae456.js",
+    "static/media/pfp.png": "/novo-portfolio/static/media/pfp.4671ba45b57040d20038.png",
+    "static/media/bg.jpg": "/novo-portfolio/static/media/bg.425b4709728d4e26858c.jpg",
+    "static/media/JS DevMedia.pdf": "/novo-portfolio/static/media/JS DevMedia.64f439249ab79578d55b.pdf",
+    "static/media/React DevMedia.pdf": "/novo-portfolio/static/media/React DevMedia.2657d91a7510b4c80880.pdf",
+    "static/media/sql.png": "/novo-portfolio/static/media/sql.dde3e20400420275c6f7.png",
+    "static/media/portfolio.png": "/novo-portfolio/static/media/portfolio.e3d660a6a8412c818bdf.png",
+    "static/media/Semana Acadêmica.pdf": "/novo-portfolio/static/media/Semana Acadêmica.02a90a818863bc399361.pdf",
+    "static/media/Currículo.pdf": "/novo-portfolio/static/media/Currículo.2433ae593b998b1bfa86.pdf",
+    "static/media/csts.png": "/novo-portfolio/static/media/csts.d79b5fb97dbe8148639d.png",
+    "static/media/Congresso.pdf": "/novo-portfolio/static/media/Congresso.6973404f804e8298bd45.pdf",
+    "static/media/Francês.pdf": "/novo-portfolio/static/media/Francês.b9980b5ffc1e1538683f.pdf",
+    "static/media/Inglês.pdf": "/novo-portfolio/static/media/Inglês.a2a34962d7f116dcc578.pdf",
+    "static/media/alura.png": "/novo-portfolio/static/media/alura.4a5e4cf5d8aef0fd558d.png",
+    "static/media/js.png": "/novo-portfolio/static/media/js.6300ea69d69a06a6d1c8.png",
+    "static/media/java.png": "/novo-portfolio/static/media/java.ec875a62117452b478c2.png",
+    "static/media/Cybersecurity.pdf": "/novo-portfolio/static/media/Cybersecurity.6610b3db5271c913f4de.pdf",
+    "static/media/cadastro.png": "/novo-portfolio/static/media/cadastro.f0c9adb1f95ea9029ce3.png",
+    "static/media/Python Institute.pdf": "/novo-portfolio/static/media/Python Institute.584968dc753ec2e7ccd6.pdf",
+    "static/media/bd.png": "/novo-portfolio/static/media/bd.bd29108f9ba2d9c84547.png",
+    "static/media/cpp.png": "/novo-portfolio/static/media/cpp.cfee3e65a5578c40b975.png",
+    "static/media/delphi.png": "/novo-portfolio/static/media/delphi.fbe82b6d2870c4532509.png",
+    "static/media/ts.png": "/novo-portfolio/static/media/ts.739f5b7d294ac6543358.png",
+    "index.html": "/novo-portfolio/index.html",
+    "main.358b5fc2.css.map": "/novo-portfolio/static/css/main.358b5fc2.css.map",
+    "main.bd7ae456.js.map": "/novo-portfolio/static/js/main.bd7ae456.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.358b5fc2.css",
+    "static/js/main.bd7ae456.js"
+  ]
+}
