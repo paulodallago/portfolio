@@ -1,38 +1,79 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --dk: #002137;
+  --lg: #002945;
+  --white: #ffffff;
+  scroll-behavior: smooth;
+}
+
+body,
+button {
+  background-color: var(--dk);
+  margin: 0;
+  color: var(--white);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: large;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+svg {
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 500;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  text-align: justify;
+  text-indent: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.p-sidebar-close-icon {
   color: white;
+  margin: 10px;
+  scale: 1.5;
 }
 
-.App-link {
-  color: #61dafb;
+#root > div > div {
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button,
+button,
+.progress {
+  scale: 1;
+  filter: brightness(100%);
+  transition: scale 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.button:hover,
+button:hover,
+.progress:hover {
+  scale: 1.2;
+  filter: brightness(80%);
+}
+
+@media (max-width: 1080px) {
+  h1 {
+    font-size: xxx-large;
   }
-  to {
-    transform: rotate(360deg);
+  .header {
+    height: 2vh !important;
+  }
+  button {
+    font-size: x-large;
+  }
+  .progress {
+    height: 3vh !important;
+  }
+  ::-webkit-slider-thumb {
+    height: 2vh !important;
+    width: 2vh !important;
   }
 }

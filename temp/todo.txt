@@ -1,0 +1,5 @@
+criar componentes básicos
+definir cores e componentes utilitários
+escrever readme
+verificar pacotes
+tirar info do código
