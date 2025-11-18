@@ -1,5 +1,15 @@
-criar componentes básicos
-definir cores e componentes utilitários
-escrever readme
-verificar pacotes
-tirar info do código
+TODO escrever readme
+TODO verificar pacotes e imports
+TODO tirar info do código
+TODO ícone e título
+TODO trocar foto
+TODO rever textos
+TODO link no email
+TODO sidemenu tá feio
+TODO add projetos, appForma, autoRancho, cançõesTfm, tcc do joao
+TODO ajeitar no firefox
+TODO mobile
+
+=== PRO DEPLOY
+
+npm run deploy

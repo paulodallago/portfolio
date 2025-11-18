@@ -111,7 +111,7 @@ export const InfoPanel = () => {
           img={require("../resources/lang/java.png")}
         />
         <Language
-          value={55}
+          value={75}
           color="#8f181d"
           img={require("../resources/lang/delphi.png")}
         />
@@ -130,6 +130,14 @@ export const InfoPanel = () => {
           color="#006db6"
           img={require("../resources/lang/ts.png")}
         />
+      </div>
+      <div>
+        <h1>Experiência</h1>
+        <p style={styles.about}>
+          Profissionalmente, possuo experiência em utilizando Javascript com React para desenvolvimento de sistemas web, além de Delphi, 
+          trabalhando em projetos de grande porte para desktop, e por fim, também tive contato com Java, tanto para aplicações Android quando sistemas web utilizando JSF.  
+          Por conta própria também experimentei e criei projetos em diversas outras linguagens e frameworks, como Javascript com Vue, C++, Python e GO.
+        </p>
       </div>
       <div style={styles.spacedButton}>
         <InfoButton

@@ -1,5 +1,4 @@
-import { margin } from "polished";
-import { green } from "../utils/utils";
+import { green, desktop } from "../utils/utils";
 
 export const LinkButton = (props) => {
   const styles = {
@@ -10,12 +9,12 @@ export const LinkButton = (props) => {
     },
     icon: {
       marginRight: "1vw",
-      fontSize: "xxx-large",
+      fontSize: desktop ? "xxx-large" : "medium",
     },
     link: {
       color: green,
       textDecoration: "none",
-      fontSize: "x-large",
+      fontSize: desktop ? "x-large" : "medium",
       margin: "auto 0",
     },
   };

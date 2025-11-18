@@ -1,6 +1,6 @@
 import img from "../resources/bg.jpg";
-import pfp from "../resources/pfp.png";
-import { space } from "../utils/utils";
+import pfp from "../resources/pfp.jpg";
+import { desktop } from "../utils/utils"
 
 export const Card = () => {
   const styles = {
@@ -11,10 +11,15 @@ export const Card = () => {
       backgroundImage: "url(" + img + ")",
       backgroundSize: "cover",
       display: "flex",
+      flexDirection: desktop ? "row" : "column",
       padding: "1vh 0",
     },
     pfp: {
       margin: "1vh",
+      borderRadius: "50%",
+      width: desktop ? "20vw" : "40vw",
+      height: desktop ? "20vw" : "40vw",
+      margin: "0 auto"
     },
   };
   return (

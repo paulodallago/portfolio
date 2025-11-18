@@ -11,10 +11,10 @@ body,
 button {
   background-color: var(--dk);
   margin: 0;
+  font-size: large;
   color: var(--white);
   text-align: center;
   font-family: "Montserrat";
-  font-size: large;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -61,13 +61,16 @@ button:hover,
 
 @media (max-width: 1080px) {
   h1 {
-    font-size: xxx-large;
+    font-size: x-large;
   }
-  .header {
-    height: 2vh !important;
+  p {
+    font-size: medium;
+  }
+  a {
+    font: medium;
   }
   button {
-    font-size: x-large;
+    font-size: medium;
   }
   .progress {
     height: 3vh !important;
@@ -75,5 +78,8 @@ button:hover,
   ::-webkit-slider-thumb {
     height: 2vh !important;
     width: 2vh !important;
+  }
+  .card {
+    flex-direction: column;
   }
 }

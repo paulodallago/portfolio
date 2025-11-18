@@ -5,4 +5,6 @@ const green = "#038177";
 const white = "#ffffff";
 const space = "2vh";
 
-export { dk, lg, white, darker, space, green };
+const desktop = window.matchMedia("(min-width: 768px)").matches;
+
+export { dk, lg, white, darker, space, green, desktop };

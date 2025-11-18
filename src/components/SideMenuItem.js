@@ -1,5 +1,3 @@
-import { margin, padding } from "polished";
-
 export const SideMenuItem = (props) => {
   const handleClick = () => {
     props.setVisible(false);
@@ -7,8 +5,8 @@ export const SideMenuItem = (props) => {
 
   const styles = {
     box: {
-      borderBottom: "1px solid white",
-      width: "90%",
+      borderBottom: "1px solid #414760ff",
+      width: "70%",
       paddingBottom: "1vw",
       margin: "1vw auto",
     },

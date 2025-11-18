@@ -1,25 +1,30 @@
+import { margin } from "polished";
+import { desktop } from "../utils/utils";
 import { InfoButton } from "./InfoButton";
-import img from "../resources/bg.jpg";
 
 export const Project = (props) => {
   const styles = {
     container: {
       width: "90vw",
-      margin: "5vh auto",
+      margin: desktop ? "5vh auto" : "0 auto",
       display: "flex",
+      flexDirection: desktop ? "row" : (props.position === "left" ? "column-reverse" : "column"),
+      alignItems: desktop ? "" : "center"
     },
     text: {
-      width: "65%",
-      marginRight: props.position == "left" ? "5%" : 0,
-      marginLeft: props.position == "right" ? "5%" : 0,
+      width: desktop ? "65%" : "80%",
+      marginRight: props.position === "left" ? "5%" : 0,
+      marginLeft: props.position === "right" ? "5%" : 0,
+      margin: desktop ? "" : "0 auto"
     },
     img: {
-      maxWidth: "25%",
+      maxWidth: desktop ? "25%" : "60%",
+      margin: desktop ? "" : "0 auto"
     },
   };
   return (
     <div style={styles.container}>
-      {props.position == "right" ? (
+      {props.position === "right" ? (
         <img src={props.image} alt="profile" style={styles.img} />
       ) : null}
       <div style={styles.text}>
@@ -27,7 +32,7 @@ export const Project = (props) => {
         <p>{props.text}</p>
         <InfoButton text="Ver no GitHub" size={3} path={props.link} />
       </div>
-      {props.position == "left" ? (
+      {props.position === "left" ? (
         <img src={props.image} alt="profile" style={styles.img} />
       ) : null}
     </div>
